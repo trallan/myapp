@@ -1,0 +1,26 @@
+Patch Notes
+
+---------------------------------------------------------
+
+Version Alpha 0.1
+
+    - Added new feature
+    - New Button "Lån / spar"
+    - New Content ( Calculate Interest and Taxes )
+
+---------------------------------------------------------
+
+Version Alpha 0.2
+
+    - Added new feature
+    - New button "Clear"
+
+---------------------------------------------------------
+
+Version Alpha 0.3
+
+    - Bugg fixes
+    - Added new backgroundcolor for Input
+    - Change position on button list container
+
+---------------------------------------------------------

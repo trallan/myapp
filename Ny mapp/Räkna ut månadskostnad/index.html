@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p style="font-size: 12px; position: absolute" ;>Alpha(0.3)</p>
+    <div class="btn-list-container">
+        <input type="submit" value="Lån / Spar" class="test-btn">
+        <input type="submit" value="Clear" class="clear-btn">
+    </div>
+
+    <div class="main-container">
+
+       <form action="" class="input-container">
+           <h1>Månadsbetalning på lån</h1>
+           <label for="lånebelopp">Lånebelopp</label>
+           <input type="number" id="lånebelopp" name="lånebelopp" placeholder="">
+
+           <label for="ränta">Ränta på lånet</label>
+           <input type="number" id="ränta" name="ränta" placeholder="">
+
+           <label for="återbetalningstid">Återbetalningsperioden</label>
+           <input type="number" id="återbetalning" name="återbetalning" placeholder="">
+
+           <input type="submit" value="Submit" class="submit-btn">
+
+           <label for="summa">Att betala varje månad</label>
+           <input type="number" id="summa" name="summa">
+
+       </form>
+    </div>
+
+    <div class="second-mc">
+        <form action="" class="input-container">
+            <h1>Ränta på sparkonto</h1>
+            <label for="belopp">Belopp</label>
+            <input type="number" id="second-amount" name="second-amount" placeholder="">
+
+            <label for="ränta">Ränta</label>
+            <input type="number" id="second-interest" name="second-interest" placeholder="">
+
+            <input type="submit" value="Submit" class="second-mc-btn">
+
+            <label for="second-sum">Summa</label>
+            <input type="number" id="second-sum" name="second-sum">
+
+            <div class="small-content-container">
+                <div>
+                    <label for="second-sum">Utbetald ränta</label>
+                    <input type="number" id="end-interest" name="second-sum">
+                </div>
+                <div>
+                    <label for="second-sum">Innehållen kapitalskatt</label>
+                    <input type="number" id="tax" name="tax">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>&copy; 2021 Viktor.E Today All Rights Reserved</footer>
+    <script src="app.js"></script>
+</body>
+</html>
